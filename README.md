@@ -17,6 +17,7 @@
 ## 软件部分
 
 * **Uboot**
+	
 	* 在**2_Uboot**文件夹内
 	* Uboot适配的是全志官方支线，没有做出太多修改
 * **Linux**
@@ -24,7 +25,10 @@
 	* 内核是自己适配4.14.111内核，也可采用第三方内核（国内开发板厂商）
 * **Rootfs** 
 	* 在**4_Rootfs**文件夹内
+	
 	* 根文件系统是自己移植的ubuntu16.04， 也可采用第三方根文件系统（国内开发板厂商）
+* 编译方法可以参考教程：[Building U-boot and Linux for H5/H3/H2+/zh - FriendlyELEC WiKi](https://wiki.friendlyelec.com/wiki/index.php/Building_U-boot_and_Linux_for_H5/H3/H2+/zh)
+* 由于Github不能上传大文件，所以请大家通过百度云下载:-(
 
 ## 烧录镜像
 * 烧录SD镜像在**5_Images**文件夹内
